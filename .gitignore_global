@@ -1,0 +1,7 @@
+# add below config into ~/.gitconfig
+# 
+# [core]
+#     excludesfile = ~/.gitignore_global
+
+# jetbrain ide
+/.idea/

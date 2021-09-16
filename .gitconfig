@@ -1,0 +1,19 @@
+[core]
+    excludesfile = ~/.gitignore_global
+    autocrlf = false
+[fetch]
+    prune = true
+[user]
+    name = aimerfan
+    email = jvuchein@gmail.com
+[alias]
+    co = checkout
+    br = branch
+    st = status
+    ignore = update-index --skip-worktree
+    unignore = update-index --no-skip-worktree
+    ignored = !git ls-files -v | grep ^S
+    ls = log --oneline --graph
+    lsa = ls --all
+    lsn = ls -n 30
+
