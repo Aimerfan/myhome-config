@@ -15,5 +15,5 @@
     ignored = !git ls-files -v | grep ^S
     ls = log --oneline --graph
     lsa = ls --all
-    lsn = ls -n 30
+    l20 = lsa -20
 
